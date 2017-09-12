@@ -1,0 +1,36 @@
+{
+  "name": "neweb-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && tslint --project=tsconfig.json && jest --verbose --coverage",
+    "watch:test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newebio/neweb-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newebio/neweb-examples/issues"
+  },
+  "homepage": "https://github.com/newebio/neweb-examples#readme",
+  "jest": {},
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "coveralls": "^2.13.1",
+    "jest": "^21.0.2",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.5",
+    "neweb": "^0.0.5",
+    "todomvc-app-css": "^2.1.0",
+    "todomvc-common": "^1.0.4",
+    "webpack": "^3.5.6"
+  }
+}
